@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="LWC Dawida-pogromcy" icon-name="custom:custom14">
+      <div>
+        <iframe src={frameSource} id="lwc-frame" frameborder="0" style="overflow:hidden; zoom:5" height="100%" width="100%" ></iframe>
+      </div>
+      <div class="slds-var-m-around_medium yolo" >
+        <p>LWC zajebiste jest, {greeting}!</p>
+        <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+      </div>
+    </lightning-card>
+  </template>

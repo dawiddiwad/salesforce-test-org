@@ -1,0 +1,13 @@
+{
+  "orgName": "dawiddobrowolski company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "LightningSalesConsole", "LightningServiceConsole"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
