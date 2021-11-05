@@ -23,6 +23,11 @@
             <start>52.0.0.0</start>
         </ipRanges>
         <ipRanges>
+            <description>bitbucket pipeline</description>
+            <end>36.0.0.0</end>
+            <start>35.0.0.0</start>
+        </ipRanges>
+        <ipRanges>
             <description>IPF vpn</description>
             <end>35.0.0.0</end>
             <start>34.0.0.0</start>
