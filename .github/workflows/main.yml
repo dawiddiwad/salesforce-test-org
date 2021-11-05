@@ -24,12 +24,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: npm init -y
+        run: npm i -D @playwright/test
+      - name: Run a one-line script
+        run: npx playwright install
+      - name: Run a one-line script
+        run: npx playwright test
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          npm i newman, npm i newman-async-runner
+
