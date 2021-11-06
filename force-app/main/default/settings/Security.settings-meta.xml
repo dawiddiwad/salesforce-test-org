@@ -6,32 +6,7 @@
     <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <networkAccess>
-        <ipRanges>
-            <end>84.0.0.0</end>
-            <start>83.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>79.184.239.255</end>
-            <start>79.184.239.1</start>
-        </ipRanges>
-        <ipRanges>
-            <end>55.0.0.0</end>
-            <start>54.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>53.0.0.0</end>
-            <start>52.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <description>bitbucket pipeline</description>
-            <end>36.0.0.0</end>
-            <start>35.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <description>IPF vpn</description>
-            <end>35.0.0.0</end>
-            <start>34.0.0.0</start>
-        </ipRanges>
+
     </networkAccess>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
