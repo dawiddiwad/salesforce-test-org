@@ -1,5 +1,6 @@
 {
   "orgName": "dawiddobrowolski company",
+  "namespace": "",
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi", "LightningSalesConsole", "LightningServiceConsole"],
   "settings": {
